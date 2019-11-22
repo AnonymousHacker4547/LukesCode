@@ -1,0 +1,16 @@
+/* File: rectangle.ch
+   find the missing angle for the user */
+
+/* Declaration: variables are given types (double, int, or string_t) */
+double a, b, c;
+
+/* Initialization: Variables are assigned values */
+printf("what are the 2 angles less than 180\n");
+scanf("%lf%lf", &a, &b); // scanf("%lf or %d or %s, more %s", &variable);
+
+/* Processing: calculations using variables */
+
+c=180-a-b;
+
+/* Termination: The FINAL OUTPUT */
+printf("your missing angle is %lf!\n",c);

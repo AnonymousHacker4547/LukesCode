@@ -1,0 +1,29 @@
+/* File:solve1.ch    
+                 */
+
+
+
+/* Declaration: variables are given types (double, int, or string_t) */
+double a,b,c,d,x;
+printf("break down the equation into ax+b=c. we're solving for x \n");
+printf("what is 'A'\n");
+scanf("%lf", &a);
+printf("what is 'b' \n");
+scanf("%lf", &b);
+printf("what is 'c' \n");
+scanf("%lf", &c);
+x = (c-b)/a;
+printf("x is %.2lf", x);
+
+
+
+/* Initialization: Variables are assigned values */
+
+
+
+
+
+
+
+/* Termination: The FINAL OUTPUT */
+
